@@ -10,6 +10,10 @@ export default function Home() {
             <br></br>
             <br></br>
             <Link href={{pathname:'/week-2'}}>Week 2 Page</Link>
+            <br></br>
+            <Link href={{pathname:'/week-3'}}>Week 3 Page</Link>
+            <br></br>
+            <Link href={{pathname:'/week-4'}}>Week 4 Page</Link>
         </div>
         
       </main>

@@ -6,7 +6,7 @@ export default function Page() {
     return (
       <main>
         <div>
-            <h1>Mace's Week 2 App</h1>
+            <h1>Mace's <s>Week 2</s> App</h1>
             <h2>Mace Howald</h2>
             <br></br>
             <a href='https://github.com/MaceSAIT/cprg306-assignments' target="_blank">Github using Anchor</a>
