@@ -1,5 +1,4 @@
-//import { studentInfo } from "./student-info.js";
-//<studentInfo/>
+"use client";
 import Link from 'next/link'
 
 
@@ -15,6 +14,10 @@ let greet = (name) => {
     return "Hello, " + name;
 };
 
+function button() {
+    alert("This is an alert");
+}
+
 export default function Page() {
     //return(<div>{greet("Mace")}</div>);
     return(
@@ -25,6 +28,8 @@ export default function Page() {
             <p>{c}</p>
             <p>{b[0]}</p>
             <p>{c[2]}</p>
+
+            <button onClick={button}>Click Me</button>
         </main>
     )
 };
