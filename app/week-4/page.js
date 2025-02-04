@@ -1,6 +1,13 @@
 "use client";
 import Link from 'next/link'
 
+/*{
+export const metadata = {
+    title: "Week 4",
+    description: "Week 4 assignment page.",
+}
+}*/
+
 
 let a = [];
 let b = [1,2,3,4,5];

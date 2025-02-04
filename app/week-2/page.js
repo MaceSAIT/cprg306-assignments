@@ -2,6 +2,11 @@
 //<studentInfo/>
 import Link from 'next/link'
 
+export const metadata = {
+  title: "Week 2",
+  description: "Week 2 assignment page.",
+}
+
 export default function Page() {
     return (
       <main>
