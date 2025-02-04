@@ -2,6 +2,9 @@
 import Link from 'next/link'
 
 /*{
+
+// Temp removed due to "use client"
+
 export const metadata = {
     title: "Week 4",
     description: "Week 4 assignment page.",
