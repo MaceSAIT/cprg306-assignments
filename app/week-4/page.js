@@ -1,5 +1,6 @@
 "use client";
 import Link from 'next/link'
+import add, { NewItemCounter } from './new-item'
 
 /*{
 
@@ -32,14 +33,8 @@ export default function Page() {
     //return(<div>{greet("Mace")}</div>);
     return(
         <main>
-            <div>{typeof(greet)}</div>
-            <p>{a}</p>
-            <p>{b}</p>
-            <p>{c}</p>
-            <p>{b[0]}</p>
-            <p>{c[2]}</p>
-
-            <button onClick={button}>Click Me</button>
+            <h1 className="text-3xl font-bold m-6 text-center">Week 4</h1>
+            <NewItemCounter/>
         </main>
     )
 };
