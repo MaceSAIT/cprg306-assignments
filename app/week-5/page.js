@@ -1,18 +1,20 @@
-import Alert from "./alert";
+"use client";
+import Link from 'next/link'
+import add, { NewItemCounter } from './new-item'
 
-export const metadata = {
-    title: "Week 5",
-    description: "Week 5 assignment page.",
+
+
+function button() {
+    alert("This is an alert");
 }
 
 export default function Page() {
-    //const [show, setShow] = useState(false);
-
+    //return(<div>{greet("Mace")}</div>);
 
     return(
         <main>
-
-            <Alert type="success"/>
+            <h1 className="text-3xl font-bold m-6 text-center">Week 5</h1>
+            <NewItemCounter/>
         </main>
     )
-}
+};
