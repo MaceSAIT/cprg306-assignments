@@ -27,9 +27,10 @@ export default function Page() {
         addItems(prevItems => [...prevItems, itemToAdd]);
     }
 
-    const handleItemSelect = () => {
+    const handleItemSelect = (name) => {
         console.log("Click!")
-        setSelectedItemName("Bread")
+        console.log(name)
+        setSelectedItemName(name)
     };
 
     const ingredient = "defualt";
