@@ -29,6 +29,9 @@ export default function Home() {
               <li>
                 <Link href={{pathname:'/week-7'}}>Week 7 Page</Link>
               </li>
+              <li>
+                <Link href={{pathname:'/week-8'}}>Week 8 Page</Link>
+              </li>
             </ul>
         </div>
         

@@ -1,0 +1,14 @@
+const Item = ({ id, name, quantity, category ,onSelect }) => {
+    return (
+        <div onClick={onSelect}>
+            <li className="p-4 m-4 w-auto border rounded-lg bg-gray-900">
+                <p className="text-lg text-gray-200 font-semibold">{name}</p>
+                <p className="text-gray-200">Quantity: {quantity}</p>
+                <p className="text-sm text-gray-500">Category: {category}</p>
+                <p className="text-sm text-gray-500">ID: {id}</p>
+            </li>
+        </div>
+    );
+};
+
+export default Item;
