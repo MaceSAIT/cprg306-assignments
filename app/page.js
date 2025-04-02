@@ -35,6 +35,9 @@ export default function Home() {
               <li className="p-4 m-2 border rounded-lg bg-gray-900">
                 <Link className="text-lg text-gray-200 font-semibold" href={{pathname:'/week-9'}}>Week 9 Page</Link>
               </li>
+              <li className="p-4 m-2 border rounded-lg bg-gray-900">
+                <Link className="text-lg text-gray-200 font-semibold" href={{pathname:'/week-10'}}>Week 10 Page</Link>
+              </li>
             </ul>
         </div>
         
