@@ -2,14 +2,14 @@ import { db } from "../_utils/firebase";
 import { collection, getDocs, addDoc, query } from "firebase/firestore";
 
 export async function getItems(userID) {
-    const items = [];
+    let items = [];
     const q = query(
         collection(db, "users", userID, "items"),
       );
       const querySnapshot = await getDocs(q);
       querySnapshot.forEach((doc) => {
         console.log(doc.id, " => ", doc.data());
-        items.push(doc.data);
+        items.push({ id: doc.id, ...doc.data() });
       });
       console.log("Items: ", items);
       return items;
